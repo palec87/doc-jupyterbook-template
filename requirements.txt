@@ -1,0 +1,7 @@
+# mandaotory dependencies (DO NOT REMOVE)
+jupyter-book
+ghp-import
+
+# source code dependencies
+matplotlib
+numpy

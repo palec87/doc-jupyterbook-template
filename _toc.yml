@@ -1,0 +1,30 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+
+# index file
+root: docs/intro
+
+# -----------------------------------------------------------------
+# Use parts to organise your content in sections
+# -----------------------------------------------------------------
+parts:
+  - caption: Section One
+    chapters:
+      - file: docs/subfolder1/demonstrator.md
+  - caption: Section Two
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: docs/subfolder2/markdown-as-notebook
+    - file: docs/subfolder2/notebook
+  - caption: Misc
+    chapters:
+    - file: docs/misc/authors.md
+
+# -----------------------------------------------------------------
+# Use chapters to organise your content in a flat structure
+# -----------------------------------------------------------------
+#chapters:
+#- file: docs/notebooks
+#- file: docs/markdown-notebooks
