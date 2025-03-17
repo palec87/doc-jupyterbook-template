@@ -26,10 +26,12 @@ jobs:
           pip install -r requirements.txt 
 
       - name: Build Jupyter Book
-        run: jupyter-book build .
+        run: |
+          cd book
+          jupyter book build --site --execute 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: ./book/_build/html
