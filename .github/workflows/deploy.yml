@@ -39,7 +39,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build --execute .
+        jupyter-book build --execute --site book -o _build
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
