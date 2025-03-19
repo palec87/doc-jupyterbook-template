@@ -4,4 +4,5 @@ ghp-import
 
 # source code dependencies
 matplotlib
+momics @ git+https://github.com/emo-bon/marine-omics-methods
 numpy
