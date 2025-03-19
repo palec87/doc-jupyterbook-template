@@ -4,6 +4,7 @@ ghp-import
 
 # source code dependencies
 fastparquet
+geopandas
 hvplot
 leafmap
 matplotlib
