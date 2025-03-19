@@ -3,6 +3,7 @@ jupyter-book>=2.0.0a0
 ghp-import
 
 # source code dependencies
+leafmap
 matplotlib
 momics @ git+https://github.com/emo-bon/marine-omics-methods
 numpy
