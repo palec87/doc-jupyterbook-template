@@ -3,7 +3,6 @@ jupyter-book>=2.0.0a0
 ghp-import
 
 # source code dependencies
-bioblend>=1.4.0
 fastparquet
 hvplot
 leafmap
@@ -11,9 +10,7 @@ matplotlib
 numpy
 pandas
 panel
-plotly
 psutil>=5.8.0
 python-dotenv>=1.0.0
 requests>=2.26.0
-scikit-bio>=0.6.3
 seaborn>=0.11.2
