@@ -6,7 +6,7 @@ matplotlib==3.*
 pandas
 jupyterlab>=4.0.0
 jupyterlab_myst>=2.0.0
-ipywidgets>=8.*
+ipywidgets==8.*
 
 # source code dependencies
 fastparquet
