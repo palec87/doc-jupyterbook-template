@@ -1,7 +1,12 @@
 # mandaotory dependencies (DO NOT REMOVE)
 jupyter-book>=2.0.0a0
-jupyterlab_myst  # for inline md interactivity
 ghp-import
+numpy
+matplotlib==3.*
+pandas
+jupyterlab>=4.0.0
+jupyterlab_myst>=2.0.0
+ipywidgets>=8.*
 
 # source code dependencies
 fastparquet
@@ -9,10 +14,6 @@ fiona
 geopandas
 hvplot
 leafmap
-matplotlib
-numpy
-pandas
-panel
 psutil>=5.8.0
 python-dotenv>=1.0.0
 requests>=2.26.0
