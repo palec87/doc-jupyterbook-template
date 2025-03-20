@@ -1,5 +1,6 @@
 # mandaotory dependencies (DO NOT REMOVE)
 jupyter-book>=2.0.0a0
+jupyterlab_myst  # for inline md interactivity
 ghp-import
 
 # source code dependencies
