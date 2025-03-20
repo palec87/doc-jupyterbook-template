@@ -4,9 +4,12 @@ ghp-import
 numpy
 matplotlib==3.*
 pandas
+jupyter-lsp
 jupyterlab>=4.0.0
+jupyterlab_server
+jupyterlab_widgets
 jupyterlab_myst>=2.0.0
-ipywidgets==8.*
+ipywidgets>=8.1
 
 # source code dependencies
 fastparquet
