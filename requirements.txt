@@ -1,23 +1,6 @@
-# mandaotory dependencies (DO NOT REMOVE)
+# mandatory dependencies (DO NOT REMOVE)
+jupyter-book
 jupyter-book>=2.0.0a0
 ghp-import
-numpy
-matplotlib==3.*
-pandas
-jupyter-lsp
-jupyterlab>=4.0.0
-jupyterlab_server
-jupyterlab_widgets
-jupyterlab_myst>=2.0.0
-ipywidgets>=8.1
 
-# source code dependencies
-fastparquet
-fiona
-geopandas
-hvplot
-leafmap
-psutil>=5.8.0
-python-dotenv>=1.0.0
-requests>=2.26.0
-seaborn>=0.11.2
+# project dependencies are under .binder/requirements.txt
