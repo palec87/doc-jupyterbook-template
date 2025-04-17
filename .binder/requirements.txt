@@ -6,3 +6,5 @@ ipyleaflet
 ipywidgets
 ipykernel
 jupyterlab-myst
+panel
+seaborn
